@@ -1,0 +1,67 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.custom-nav-container {
+  height: 70px;
+}
+
+.custom-nav-container .custom-nav {
+  text-transform: uppercase;
+}
+
+.custom-nav-container .custom-nav .nav-item {
+  padding: 0 10px 0 10px;
+  -webkit-transition: all ease-in-out 0.6s;
+  transition: all ease-in-out 0.6s;
+  font-weight: 600;
+}
+
+.custom-nav-container .custom-nav .nav-item:hover {
+  font-size: 20px;
+  -webkit-transition: all ease-in-out 0.6s;
+  transition: all ease-in-out 0.6s;
+}
+
+.home-banner {
+  background-image: url(../img/home-banner.jpg);
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.home-banner .home-title {
+  padding: 210px 0 210px 0;
+  width: 100%;
+  background-color: #132e16ba;
+}
+
+.home-banner h1 {
+  color: #ffffff;
+  font-size: 100px;
+  font-weight: 600;
+}
+
+.home-banner .home-subtitle {
+  color: #ffffff;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.destinations-container .destination-item {
+  background: #ececec;
+  max-width: 32% !important;
+  border: .5px solid #979797;
+  border-radius: 5px;
+}
+
+.destinations-container .destination-item .destination-heading {
+  font-weight: 400;
+  padding: 1rem 0 .5rem 0;
+}
+
+.destinations-container .destination-item .destination-image {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
